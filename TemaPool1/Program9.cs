@@ -22,7 +22,7 @@ namespace TemaPool1
             {
                 if (n % i == 0)
                 {
-                    Console.Write($" {i}");
+                    Console.Write($" , {i}");
                 }
             }
             Console.WriteLine();

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace TemaPool1
 {
-    class Program9
+    class Program09
     {
         static void Main(string[] args)
         {

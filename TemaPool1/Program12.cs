@@ -10,7 +10,7 @@ namespace TemaPool1
     {
         static void Main(string[] args)
         {
-            //Determinati cate numere integi divizibile cu n se afla in intervalul [a, b]. 
+            //Determinati cate numere intregi divizibile cu n se afla in intervalul [a, b]. 
 
             int a, b, n, nr=0;
             Console.WriteLine("Acest program determina cate numere intregi divizibile cu n se afla in intervalul [a, b]. ");

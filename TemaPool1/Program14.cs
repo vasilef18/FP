@@ -19,7 +19,7 @@ namespace TemaPool1
             Console.WriteLine("");
             Console.Write("Se va verifica numarul: ");
             n = int.Parse(Console.ReadLine());
-            //invers = n;
+            invers = n;
 
             while (n>0)
             {
@@ -27,7 +27,7 @@ namespace TemaPool1
                 n = n / 10;
                 rezultat = rezultat  * 10 + cifra;
             }
-            if (rezultat == n)
+            if (rezultat == invers)
             {
                 Console.WriteLine($"Numarul {rezultat} este palindrom");
             }

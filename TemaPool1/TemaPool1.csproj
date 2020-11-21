@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>TemaPool1.Program17</StartupObject>
+    <StartupObject>TemaPool1.Program16</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />

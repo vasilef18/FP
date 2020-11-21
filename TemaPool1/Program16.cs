@@ -16,7 +16,7 @@ namespace TemaPool1
             Console.WriteLine("Acest program ordoneaza crescator 5 numere introduse de la tastatura");
             Console.WriteLine();
             Console.Write("a=");
-            Random rnd = new Random(a);
+            a = int.Parse(Console.ReadLine());
             Console.Write("b=");
             b = int.Parse(Console.ReadLine());
             Console.Write("c=");

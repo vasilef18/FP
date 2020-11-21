@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>TemaPool1.Program14</StartupObject>
+    <StartupObject>TemaPool1.Program15</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -46,20 +46,21 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Program1.cs" />
+    <Compile Include="Program01.cs" />
     <Compile Include="Program10.cs" />
     <Compile Include="Program11.cs" />
     <Compile Include="Program12.cs" />
     <Compile Include="Program13.cs" />
     <Compile Include="Program14.cs" />
-    <Compile Include="Program2.cs" />
-    <Compile Include="Program3.cs" />
-    <Compile Include="Program4.cs" />
-    <Compile Include="Program5.cs" />
-    <Compile Include="program6.cs" />
-    <Compile Include="Program7.cs" />
-    <Compile Include="Program8.cs" />
-    <Compile Include="Program9.cs" />
+    <Compile Include="Program02.cs" />
+    <Compile Include="Program03.cs" />
+    <Compile Include="Program04.cs" />
+    <Compile Include="Program05.cs" />
+    <Compile Include="Program06.cs" />
+    <Compile Include="Program07.cs" />
+    <Compile Include="Program08.cs" />
+    <Compile Include="Program09.cs" />
+    <Compile Include="Program15.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

@@ -19,7 +19,7 @@ namespace TemaLAB
             int min = 0 , max = 99;
             int[] vector = new int[100];
             Random aleator = new Random();
-           for (int i = 0; i < vector.Length; i++)
+            for (int i = 0; i < vector.Length; i++)
             {
                 vector[i] = aleator.Next(min,  max);
                 Console.Write($"{vector[i]} ");

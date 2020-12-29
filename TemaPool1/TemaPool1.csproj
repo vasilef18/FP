@@ -34,7 +34,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>TemaPool1.Program19</StartupObject>
+    <StartupObject>TemaPool1.Program20</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -67,6 +67,7 @@
     <Compile Include="Program18.cs" />
     <Compile Include="Program19.cs" />
     <Compile Include="Program20.cs" />
+    <Compile Include="Program21.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

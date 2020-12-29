@@ -14,7 +14,8 @@ namespace TemaPool2
             //Se considera ca primul element din secventa este pe pozitia zero. Daca numarul nu se afla
             //in secventa raspunsul va fi -1. 
 
-            int numar, lungimeSecventa, nrCautat=0, pozitie=0;
+            int numar, lungimeSecventa, nrCautat = 0;
+            string pozitie="";
             Random aleator = new Random();
             Console.WriteLine("Programul determina pe ce pozitie se afla in secventa un numar a");
             Console.WriteLine();
@@ -25,25 +26,25 @@ namespace TemaPool2
             Console.Write("Elementul cautat este: ");
             nrCautat = int.Parse(Console.ReadLine());
             Console.Write("Elementele secventei sunt: ");
-            for (int i = 0; i < lungimeSecventa; i++)
+            for (int i = 0; i <= lungimeSecventa; i++)
             {
                 numar = aleator.Next(5);
                 Console.Write($"{ numar}, ");
                 if (nrCautat == numar)
                 {
-                    pozitie = i;
-                    //TODO daca numarul se repeta sa afisez toate pozitiile pe care se repeta
+                    pozitie += $"{i}, ";
                 }
             }
             Console.WriteLine();
-            if (pozitie>0)
+            if (pozitie != "")
             {
-                Console.WriteLine($"Elementul cautat este pe pozitia {pozitie}");
+                Console.Write($"Elementul cautat este pe pozitia {pozitie}");
             }
             else
             {
-                Console.WriteLine($"Elementul cautat NU exista in secventa");
+                Console.WriteLine($"-1");
             }
+            Console.WriteLine();
         }
     }
 }

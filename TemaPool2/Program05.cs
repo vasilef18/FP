@@ -13,7 +13,7 @@ namespace TemaPool2
             //Cate elemente dintr-o secventa de n numere sunt egale cu pozitia pe care apar in secventa.
             //Se considera ca primul element din secventa este pe pozitia 0.
 
-            int lungimeSecventa, numar=0, pozitie=0;
+            int lungimeSecventa, numar=0;
             Random aleator = new Random();
             Console.WriteLine("Programul afiseaza cate dintre elementele unei secvente sunt egale cu pozitia pe care apar");
             Console.WriteLine();
@@ -29,8 +29,6 @@ namespace TemaPool2
                 if (numar == i)
                 {
                     save += $"\nElementul {numar} se afla pe pozitia {i}";
-                    //Console.WriteLine();
-                    //Console.WriteLine($"Elementul {numar} se afla pe pozitia {i}");
                 }
             }
             Console.WriteLine();

@@ -15,13 +15,13 @@ namespace TemaPool1
             int x, numar;
             Random aleator = new Random();
             numar = aleator.Next(1, 1025);
-            Console.WriteLine("Acest program genereaza un numar aleator intre 1 si 1024. Ghiciti acest numar");
+            Console.WriteLine("Acest program genereaza un numar aleator intre 1 si 1024. Ghiciti numarul");
             Console.WriteLine();
 
             do
             {
-                Console.Write("Introduceti numar: ");
                 x = int.Parse(Console.ReadLine());
+                Console.WriteLine($"Numarul este mai mare sau egal decat {x}? ");
                 if (x == numar)
                 {
                     Console.WriteLine();
@@ -31,12 +31,12 @@ namespace TemaPool1
                 }
                 if (x < numar)
                 {
-                    Console.WriteLine("Introduceti un numar mai MARE");
+                    Console.WriteLine("DA");
                     Console.WriteLine();
                 }
                 else
                 {
-                    Console.WriteLine("Introduceti un numar mai MIC");
+                    Console.WriteLine("NU");
                     Console.WriteLine();
                 }
             } 

@@ -13,7 +13,7 @@ namespace TemaPool3
             //Se da un vector cu n elemente si o valoare k. Se cere sa se determine 
             //prima pozitie din vector pe care apare k. Daca k nu apare in vector rezultatul va fi -1. 
 
-            int n, k, i, ok = 0, pozitie = 0;
+            int n, k, ok = 0, pozitie = 0;
             Random aleator = new Random();
             Console.WriteLine("Programul determina prima pozitie pe care apare in vector un element" +
                 " k citit de la tastatura.");
@@ -22,18 +22,17 @@ namespace TemaPool3
             n = int.Parse(Console.ReadLine());
             Console.Write($"Elementul cautat in vector este: ");
             k = int.Parse(Console.ReadLine());
-            int[] vector = new int[n];
+            int[] vector = new int[n+1] ;
 
             Console.Write("Elementele vectorului sunt: ");
-            for (i = 0; i < n; i++)
+            for (int i = 1; i < n+1 ; i++)
             {
-                vector[i] = aleator.Next(0, 5);
+                vector[i] = aleator.Next(0,5);
                 Console.Write($"{vector[i]} ");
-                if (vector[i] == k)
+                if (vector[i] == k && pozitie<1)
                 {
                     ok = 1;
                     pozitie = i;
-                    break;
                 }
             }
             Console.WriteLine();

@@ -27,12 +27,12 @@ namespace TemaPool3
                 vectorInitial[i] = aleator.Next(0, 50);
                 Console.WriteLine(vectorInitial[i]);
             }
-            Console.Write("Elementul dorit pentru inserare este: ");
+            Console.Write("\nElementul dorit pentru inserare este: ");
             e = int.Parse(Console.ReadLine());
             Console.Write("Elementul va fi introdus pe pozitia: ");
             k = int.Parse(Console.ReadLine());
             int[] vectorFinal = new int[lungimeVector + 1];
-            Console.WriteLine("Vectorul final este:");
+            Console.WriteLine("\nVectorul final este:");
             for (i = 0; i < lungimeVector+1; i++)
             {
                 if (i < k)
